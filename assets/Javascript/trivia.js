@@ -5,7 +5,6 @@ $(document).ready(function () {
     let dribbleSound = new Audio("./assets/Audio/Basketball-Bounce.mp3");
 
     //on start button click
-
     $("#start-button").on("click", function () {
         //remove start button and background
         $("#start-button").remove();
