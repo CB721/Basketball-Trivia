@@ -1,3 +1,3 @@
-Multiple choice game about basketball. Player has limited 24 seconds to finish answering the questions. The game ends when the timer runs out. Once the game ends, the page will reveal the number of correctly answered questions.
+A multipe-choice guessing game about basketball. Once the user clicks the "Jump Ball" button, they are presented with a list of questions. They then have 24 seconds to answer all of them and hit the "Slam Dunk" button. Either when the user hits the "Slam Dunk" button, or the timer runs out, they are presented with their results.
 
 Copied files from previous version (https://github.com/CB721/TriviaGame) because there was an error in uploading so that multiple copies of the same files were created.
