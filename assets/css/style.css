@@ -3,11 +3,11 @@ body {
     background-image: url(../images/bball-bg1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    color: #f25a0e;
+    color: #F26419;
 }
 .jumbotron {
     margin-top: 10rem;
-    background-color: #f25a0e;
+    background-color: #F26419;
 }
 h1 {
     text-align: center;
@@ -31,11 +31,13 @@ h1 {
    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
    position: relative;
    overflow: hidden;
-   background: #f25a0e;
+   background: #F26419;
    -webkit-transition-property: color;
    transition-property: color;
    -webkit-transition-duration: 0.3s;
    transition-duration: 0.3s;
+   border-color: darkred;
+   border-width: 5px;
 }
 #submit::before{
     content: "";
@@ -85,6 +87,6 @@ input[type=radio]::before {
     transform: rotate(40deg);
 }
 input[type=radio]:checked {
-    color: #f25a0e;
+    color: #F26419;
     content: '\02143';
 }
