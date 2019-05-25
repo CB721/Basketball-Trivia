@@ -17,6 +17,10 @@ h1 {
 #start-audio {
     display: none;
 }
+.mastfoot {
+    text-align: center!important;
+    padding: 20px;
+}
 #submit {
    float: right;
    border-radius: 50px;
@@ -57,7 +61,7 @@ h1 {
 }
 #submit:hover:before, #submit:focus:before, #submit:active:before {
     -webkit-transform: scale(0);
-  transform: scale(0);
+    transform: scale(0);
 }
 .questions, #final-results {
     padding: 50px;
@@ -73,13 +77,12 @@ h3 {
 .timer {
     font-size: 45px;
 }
-
 input[type=radio]::before {
     position: absolute;
-     font: 13px/1 'Open Sans', sans-serif;
-     left: 11px;
-     top: 7px;
-     transform: rotate(40deg);
+    font: 13px/1 'Open Sans', sans-serif;
+    left: 11px;
+    top: 7px;
+    transform: rotate(40deg);
 }
 input[type=radio]:checked {
     color: #f25a0e;
