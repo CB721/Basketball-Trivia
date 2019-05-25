@@ -4,11 +4,16 @@ $(document).ready(function () {
     let gameAudio = new Audio("./assets/Audio/Basketball-Game.mp3");
     let dribbleSound = new Audio("./assets/Audio/Basketball-Bounce.mp3");
 
+    //hide questions and results div
+    $(".questions").hide();
+    $("#final-results").hide();
+
     //on start button click
     $("#start-button").on("click", function () {
         //remove start button and background
         $("#start-button").remove();
         $(".jumbotron").remove();
+        $(".questions").show();
         game.startGame();
     });
 
@@ -96,6 +101,9 @@ $(document).ready(function () {
             clearInterval(gameTimer);
             //remove the timer
             $(".timer").remove();
+
+            //show results div
+            $("#final-results").show();
 
             //play game end sound
             gameAudio.play();

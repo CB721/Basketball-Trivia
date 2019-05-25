@@ -59,7 +59,7 @@ h1 {
     -webkit-transform: scale(0);
   transform: scale(0);
 }
-.game-area {
+.questions, #final-results {
     padding: 50px;
     font-size: 16px;
     background-color: gray;
