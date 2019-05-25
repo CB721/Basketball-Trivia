@@ -90,3 +90,39 @@ input[type=radio]:checked {
     color: #F26419;
     content: '\02143';
 }
+@media screen and (max-width: 480px) {
+    body {
+        background-image: url(../images/bball-bg1.jpg);
+        background-size: cover;
+    }
+    .mastfoot {
+        text-align: center!important;
+    }
+    #submit {
+        float: inherit;
+        align-content: center!important;
+        margin-top: 50px;
+    }
+}
+@media screen and (max-width: 768px) {
+    body {
+        background-image: url(../images/bball-bg1.jpg);
+        background-size: cover;
+    }
+    .mastfoot {
+        text-align: center!important;
+    }
+    #submit {
+        float: inherit;
+        align-content: center!important;
+    }
+}
+@media screen and (max-width: 900px) {
+    body {
+        background-image: url(../images/bball-bg1.jpg);
+        background-size: cover;
+    }
+    .mastfoot {
+        text-align: center!important;
+    }
+}
